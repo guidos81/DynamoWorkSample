@@ -26,7 +26,6 @@
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.7",
         "monolog/monolog": "^2.9",
-        "nesbot/carbon": "^2.68",
         "php-di/php-di": "^6.4",
         "slim/psr7": "^1.6",
         "slim/slim": "^4.11"
