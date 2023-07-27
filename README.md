@@ -1,3 +1,18 @@
+# Dynamo Work Sample
+
+Currently only fetches and orders 25 laureates, presenting the most recent 20 laureates.
+It uses data from the Nobel Prize open API: https://www.nobelprize.org/about/developer-zone-2/
+
+The number of laureates can be changed from the LaureateService class, where the limit of the API can be extended to 1000 to collect all 981 current laureates.
+
+## Potential Improvements
+
+* Collect the laureates through pagination from the Noble Prize API
+* Cache the response from the Noble Prize API to reduce requests
+* Store results in a database and use this data to return results. A background job could refresh the database on a set schedule.
+* Exception handling around the Noble Prize API request
+
+
 # Slim Framework 4 Skeleton Application
 
 [![Coverage Status](https://coveralls.io/repos/github/slimphp/Slim-Skeleton/badge.svg?branch=master)](https://coveralls.io/github/slimphp/Slim-Skeleton?branch=master)
