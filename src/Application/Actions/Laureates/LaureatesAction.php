@@ -9,7 +9,7 @@ use App\Domain\Laureates\LaureatesService;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Log\LoggerInterface;
 
-abstract class LaureatesAction extends Action
+class LaureatesAction extends Action
 {
     protected LaureatesService $service;
 
@@ -21,8 +21,10 @@ abstract class LaureatesAction extends Action
 
     public function action(): Response
     {
+        $laureates = $this->service->getLaureates();
+
         $this->logger->info("Laureates list has been viewed.");
 
-        return $this->respondWithData($this->service->getLaureates());
+        return $this->respondWithData(array_slice($laureates, 0, 20));
     }
 }

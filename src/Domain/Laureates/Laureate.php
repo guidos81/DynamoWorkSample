@@ -68,13 +68,13 @@ class Laureate implements JsonSerializable
             }
         } else {
             $prizeCategory = $data['nobelPrizes'][0]['category']['en'];
-            $prizeAwarded = $data['nobelPrizes'][0]['dateAwarded'];
+            $prizeAwarded = $data['nobelPrizes'][0]['dateAwarded'] ?? '0000-00-00';
         }
 
         return new self(
             $data['fullName']['en'],
             $data['birth']['date'],
-            $data['birth']['place']['country']['en'],
+            $data['birth']['place']['country']['en'] ?? 'Unknown',
             $prizeCategory,
             $prizeAwarded,
         );

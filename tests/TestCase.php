@@ -20,6 +20,11 @@ class TestCase extends PHPUnit_TestCase
 {
     use ProphecyTrait;
 
+    protected function getFixture(string $file): string
+    {
+        return file_get_contents(__DIR__ . '/Fixtures/' . $file);
+    }
+
     /**
      * @return App
      * @throws Exception

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace App\Domain\Laureates;
 
-use GuzzleHttp\Client;
+use Psr\Http\Client\ClientInterface;
 
 class LaureatesService
 {
     public function __construct(
-        private Client $client,
+        private ClientInterface $client,
         private LaureatesSorter $sorter,
     ) {}
 

@@ -1,0 +1,925 @@
+{
+  "laureates": [
+    {
+      "id": "514",
+      "knownName": {
+        "en": "George C. Marshall",
+        "se": "George C. Marshall"
+      },
+      "givenName": {
+        "en": "George C.",
+        "se": "George C."
+      },
+      "familyName": {
+        "en": "Marshall",
+        "se": "Marshall"
+      },
+      "fullName": {
+        "en": "George Catlett Marshall",
+        "se": "George Catlett Marshall"
+      },
+      "fileName": "marshall",
+      "gender": "male",
+      "birth": {
+        "date": "1880-12-31",
+        "place": {
+          "city": {
+            "en": "Uniontown, PA",
+            "no": "Uniontown, PA",
+            "se": "Uniontown, PA"
+          },
+          "country": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA"
+          },
+          "cityNow": {
+            "en": "Uniontown, PA",
+            "no": "Uniontown, PA",
+            "se": "Uniontown, PA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q1187047",
+              "https://www.wikipedia.org/wiki/Uniontown,_Pennsylvania"
+            ]
+          },
+          "countryNow": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q30"
+            ]
+          },
+          "continent": {
+            "en": "North America",
+            "no": "Nord-Amerika",
+            "se": "Nordamerika"
+          },
+          "locationString": {
+            "en": "Uniontown, PA, USA",
+            "no": "Uniontown, PA, USA",
+            "se": "Uniontown, PA, USA"
+          }
+        }
+      },
+      "death": {
+        "date": "1959-10-16",
+        "place": {
+          "city": {
+            "en": "Washington, D.C.",
+            "no": "Washington, D.C.",
+            "se": "Washington, D.C."
+          },
+          "country": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": "https://www.wikidata.org/wiki/Q30"
+          },
+          "cityNow": {
+            "en": "Washington, D.C.",
+            "no": "Washington, D.C.",
+            "se": "Washington, D.C.",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q61",
+              "https://www.wikipedia.org/wiki/Washington,_D.C."
+            ]
+          },
+          "countryNow": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q30"
+            ]
+          },
+          "continent": {
+            "en": "North America",
+            "no": "Nord-Amerika",
+            "se": "Nordamerika"
+          },
+          "locationString": {
+            "en": "Washington, D.C., USA",
+            "no": "Washington, D.C., USA",
+            "se": "Washington, D.C., USA"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "George_Marshall",
+        "english": "https://en.wikipedia.org/wiki/George_Marshall"
+      },
+      "wikidata": {
+        "id": "Q151414",
+        "url": "https://www.wikidata.org/wiki/Q151414"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q151414",
+        "https://en.wikipedia.org/wiki/George_Marshall"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/514",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/514",
+          "title": "George C. Marshall - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "1953",
+          "category": {
+            "en": "Peace",
+            "no": "Fred",
+            "se": "Fred"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Peace Prize",
+            "no": "Nobels fredspris",
+            "se": "Nobels fredspris"
+          },
+          "sortOrder": "1",
+          "portion": "1",
+          "dateAwarded": "1953-10-30",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for proposing and supervising the plan for the economic recovery of Europe",
+            "no": "for å ha foreslått og ført tilsyn med planen for økonomisk gjenoppbygging av Europa"
+          },
+          "prizeAmount": 175293,
+          "prizeAmountAdjusted": 2614331,
+          "residences": [
+            {
+              "country": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              },
+              "countryNow": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              },
+              "locationString": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/pea/1953",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/peace/1953/marshall/facts/",
+              "title": "George C. Marshall - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/peace/1953/summary/",
+              "title": "The Nobel Peace Prize 1953",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "knownName": {
+        "en": "George D. Snell",
+        "se": "George D. Snell"
+      },
+      "givenName": {
+        "en": "George D.",
+        "se": "George D."
+      },
+      "familyName": {
+        "en": "Snell",
+        "se": "Snell"
+      },
+      "fullName": {
+        "en": "George D. Snell",
+        "se": "George D. Snell"
+      },
+      "fileName": "snell",
+      "gender": "male",
+      "birth": {
+        "date": "1903-12-19",
+        "place": {
+          "city": {
+            "en": "Bradford, MA",
+            "no": "Bradford, MA",
+            "se": "Bradford, MA"
+          },
+          "country": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA"
+          },
+          "cityNow": {
+            "en": "Bradford, MA",
+            "no": "Bradford, MA",
+            "se": "Bradford, MA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q4954548",
+              "https://www.wikipedia.org/wiki/Bradford,_Massachusetts"
+            ]
+          },
+          "countryNow": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q30"
+            ]
+          },
+          "continent": {
+            "en": "North America",
+            "no": "Nord-Amerika",
+            "se": "Nordamerika"
+          },
+          "locationString": {
+            "en": "Bradford, MA, USA",
+            "no": "Bradford, MA, USA",
+            "se": "Bradford, MA, USA"
+          }
+        }
+      },
+      "death": {
+        "date": "1996-06-06",
+        "place": {
+          "city": {
+            "en": "Bar Harbor, ME",
+            "no": "bar Harbor, ME",
+            "se": "Bar Harbor, ME"
+          },
+          "country": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": "https://www.wikidata.org/wiki/Q30"
+          },
+          "cityNow": {
+            "en": "Bar Harbor, ME",
+            "no": "bar Harbor, ME",
+            "se": "Bar Harbor, ME",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q1672375",
+              "https://www.wikipedia.org/wiki/Bar_Harbor,_Maine"
+            ]
+          },
+          "countryNow": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q30"
+            ]
+          },
+          "continent": {
+            "en": "North America",
+            "no": "Nord-Amerika",
+            "se": "Nordamerika"
+          },
+          "locationString": {
+            "en": "Bar Harbor, ME, USA",
+            "no": "bar Harbor, ME, USA",
+            "se": "Bar Harbor, ME, USA"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "George_Davis_Snell",
+        "english": "https://en.wikipedia.org/wiki/George_Davis_Snell"
+      },
+      "wikidata": {
+        "id": "Q295666",
+        "url": "https://www.wikidata.org/wiki/Q295666"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q295666",
+        "https://en.wikipedia.org/wiki/George_Davis_Snell"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/421",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/421",
+          "title": "George D. Snell - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "1980",
+          "category": {
+            "en": "Physiology or Medicine",
+            "no": "Fysiologi eller medisin",
+            "se": "Fysiologi eller medicin"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Prize in Physiology or Medicine",
+            "no": "Nobelprisen i fysiologi eller medisin",
+            "se": "Nobelpriset i fysiologi eller medicin"
+          },
+          "sortOrder": "3",
+          "portion": "1/3",
+          "dateAwarded": "1980-10-10",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for their discoveries concerning genetically determined structures on the cell surface that regulate immunological reactions",
+            "se": "för deras upptäckter rörande genetiskt bestämda cellulära ytstrukturer som styr immunologiska reaktioner"
+          },
+          "prizeAmount": 880000,
+          "prizeAmountAdjusted": 2942067,
+          "affiliations": [
+            {
+              "name": {
+                "en": "Jackson Laboratory",
+                "no": "Jackson Laboratory",
+                "se": "Jackson Laboratory"
+              },
+              "nameNow": {
+                "en": "Jackson Laboratory"
+              },
+              "city": {
+                "en": "Bar Harbor, ME",
+                "no": "bar Harbor, ME",
+                "se": "Bar Harbor, ME"
+              },
+              "country": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              },
+              "cityNow": {
+                "en": "Bar Harbor, ME",
+                "no": "bar Harbor, ME",
+                "se": "Bar Harbor, ME",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q1672375",
+                  "https://www.wikipedia.org/wiki/Bar_Harbor,_Maine"
+                ]
+              },
+              "countryNow": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q30"
+                ]
+              },
+              "locationString": {
+                "en": "Bar Harbor, ME, USA",
+                "no": "bar Harbor, ME, USA",
+                "se": "Bar Harbor, ME, USA"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/med/1980",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/medicine/1980/snell/facts/",
+              "title": "George D. Snell - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/medicine/1980/summary/",
+              "title": "The Nobel Prize in Physiology or Medicine 1980",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "knownName": {
+        "en": "George de Hevesy",
+        "se": "George de Hevesy"
+      },
+      "givenName": {
+        "en": "George",
+        "se": "George"
+      },
+      "familyName": {
+        "en": "de Hevesy",
+        "se": "de Hevesy"
+      },
+      "fullName": {
+        "en": "George de Hevesy",
+        "se": "George de Hevesy"
+      },
+      "fileName": "hevesy",
+      "gender": "male",
+      "birth": {
+        "date": "1885-08-01",
+        "place": {
+          "city": {
+            "en": "Budapest",
+            "no": "Budapest",
+            "se": "Budapest"
+          },
+          "country": {
+            "en": "Austria-Hungary",
+            "no": "Østerrike-Ungarn",
+            "se": "Österrike-Ungern"
+          },
+          "cityNow": {
+            "en": "Budapest",
+            "no": "Budapest",
+            "se": "Budapest",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q1781",
+              "https://www.wikipedia.org/wiki/Budapest"
+            ]
+          },
+          "countryNow": {
+            "en": "Hungary",
+            "no": "Ungarn",
+            "se": "Ungern",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q28"
+            ]
+          },
+          "continent": {
+            "en": "Europe",
+            "no": "Europa",
+            "se": "Europa"
+          },
+          "locationString": {
+            "en": "Budapest, Austria-Hungary (now Hungary)",
+            "no": "Budapest, Østerrike-Ungarn (nå Ungarn)",
+            "se": "Budapest, Österrike-Ungern (nu Ungern)"
+          }
+        }
+      },
+      "death": {
+        "date": "1966-07-05",
+        "place": {
+          "city": {
+            "en": "Freiburg im Breisgau",
+            "no": "Freiburg im Breisgau",
+            "se": "Freiburg im Breisgau"
+          },
+          "country": {
+            "en": "West Germany",
+            "no": "Vest-Tyskland",
+            "se": "Västtyskland"
+          },
+          "cityNow": {
+            "en": "Freiburg im Breisgau",
+            "no": "Freiburg im Breisgau",
+            "se": "Freiburg im Breisgau",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q2833",
+              "https://www.wikipedia.org/wiki/Freiburg_im_Breisgau"
+            ]
+          },
+          "countryNow": {
+            "en": "Germany",
+            "no": "Tyskland",
+            "se": "Tyskland",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q183"
+            ]
+          },
+          "continent": {
+            "en": "Europe",
+            "no": "Europa",
+            "se": "Europa"
+          },
+          "locationString": {
+            "en": "Freiburg im Breisgau, West Germany (now Germany)",
+            "no": "Freiburg im Breisgau, Vest-Tyskland (nå Tyskland)",
+            "se": "Freiburg im Breisgau, Västtyskland (nu Tyskland)"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "George_de_Hevesy",
+        "english": "https://en.wikipedia.org/wiki/George_de_Hevesy"
+      },
+      "wikidata": {
+        "id": "Q76951",
+        "url": "https://www.wikidata.org/wiki/Q76951"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q76951",
+        "https://en.wikipedia.org/wiki/George_de_Hevesy"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/201",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/201",
+          "title": "George de Hevesy - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "1943",
+          "category": {
+            "en": "Chemistry",
+            "no": "Kjemi",
+            "se": "Kemi"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Prize in Chemistry",
+            "no": "Nobelprisen i kjemi",
+            "se": "Nobelpriset i kemi"
+          },
+          "sortOrder": "1",
+          "portion": "1",
+          "dateAwarded": "1944-11-09",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for his work on the use of isotopes as tracers in the study of chemical processes",
+            "se": "för hans arbeten över isotopers användning som indikatorer vid studiet av kemiska processer"
+          },
+          "prizeAmount": 123691,
+          "prizeAmountAdjusted": 2566588,
+          "affiliations": [
+            {
+              "name": {
+                "en": "Stockholm University",
+                "no": "Stockholm University",
+                "se": "Stockholm University"
+              },
+              "nameNow": {
+                "en": "Stockholm University"
+              },
+              "city": {
+                "en": "Stockholm",
+                "no": "Stockholm",
+                "se": "Stockholm"
+              },
+              "country": {
+                "en": "Sweden",
+                "no": "Sverige",
+                "se": "Sverige"
+              },
+              "cityNow": {
+                "en": "Stockholm",
+                "no": "Stockholm",
+                "se": "Stockholm",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q1754",
+                  "https://www.wikipedia.org/wiki/Stockholm"
+                ]
+              },
+              "countryNow": {
+                "en": "Sweden",
+                "no": "Sverige",
+                "se": "Sverige",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q34"
+                ]
+              },
+              "locationString": {
+                "en": "Stockholm, Sweden",
+                "no": "Stockholm, Sverige",
+                "se": "Stockholm, Sverige"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/che/1943",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/chemistry/1943/hevesy/facts/",
+              "title": "George de Hevesy - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/chemistry/1943/summary/",
+              "title": "The Nobel Prize in Chemistry 1943",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "knownName": {
+        "en": "George E. Palade",
+        "se": "George E. Palade"
+      },
+      "givenName": {
+        "en": "George E.",
+        "se": "George E."
+      },
+      "familyName": {
+        "en": "Palade",
+        "se": "Palade"
+      },
+      "fullName": {
+        "en": "George E. Palade",
+        "se": "George E. Palade"
+      },
+      "fileName": "palade",
+      "gender": "male",
+      "birth": {
+        "date": "1912-11-19",
+        "place": {
+          "city": {
+            "en": "Iasi",
+            "no": "Iasi",
+            "se": "Iasi"
+          },
+          "country": {
+            "en": "Romania",
+            "no": "Romania",
+            "se": "Rumänien"
+          },
+          "cityNow": {
+            "en": "Iasi",
+            "no": "Iasi",
+            "se": "Iasi",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q46852",
+              "https://www.wikipedia.org/wiki/Iasi"
+            ]
+          },
+          "countryNow": {
+            "en": "Romania",
+            "no": "Romania",
+            "se": "Rumänien",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q218"
+            ]
+          },
+          "continent": {
+            "en": "Europe",
+            "no": "Europa",
+            "se": "Europa"
+          },
+          "locationString": {
+            "en": "Iasi, Romania",
+            "no": "Iasi, Romania",
+            "se": "Iasi, Rumänien"
+          }
+        }
+      },
+      "death": {
+        "date": "2008-10-07",
+        "place": {
+          "city": {
+            "en": "Del Mar, CA",
+            "no": "del Mar, CA",
+            "se": "Del Mar, CA"
+          },
+          "country": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": "https://www.wikidata.org/wiki/Q30"
+          },
+          "cityNow": {
+            "en": "Del Mar, CA",
+            "no": "del Mar, CA",
+            "se": "Del Mar, CA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q674469",
+              "https://www.wikipedia.org/wiki/Del_Mar,_California"
+            ]
+          },
+          "countryNow": {
+            "en": "USA",
+            "no": "USA",
+            "se": "USA",
+            "sameAs": [
+              "https://www.wikidata.org/wiki/Q30"
+            ]
+          },
+          "continent": {
+            "en": "North America",
+            "no": "Nord-Amerika",
+            "se": "Nordamerika"
+          },
+          "locationString": {
+            "en": "Del Mar, CA, USA",
+            "no": "del Mar, CA, USA",
+            "se": "Del Mar, CA, USA"
+          }
+        }
+      },
+      "wikipedia": {
+        "slug": "George_Emil_Palade",
+        "english": "https://en.wikipedia.org/wiki/George_Emil_Palade"
+      },
+      "wikidata": {
+        "id": "Q219718",
+        "url": "https://www.wikidata.org/wiki/Q219718"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q219718",
+        "https://en.wikipedia.org/wiki/George_Emil_Palade"
+      ],
+      "links": [
+        {
+          "rel": "laureate",
+          "href": "https://api.nobelprize.org/2/laureate/405",
+          "action": "GET",
+          "types": "application/json"
+        },
+        {
+          "rel": "external",
+          "href": "https://www.nobelprize.org/laureate/405",
+          "title": "George E. Palade - Facts",
+          "action": "GET",
+          "types": "text/html",
+          "class": [
+            "laureate facts"
+          ]
+        }
+      ],
+      "nobelPrizes": [
+        {
+          "awardYear": "1974",
+          "category": {
+            "en": "Physiology or Medicine",
+            "no": "Fysiologi eller medisin",
+            "se": "Fysiologi eller medicin"
+          },
+          "categoryFullName": {
+            "en": "The Nobel Prize in Physiology or Medicine",
+            "no": "Nobelprisen i fysiologi eller medisin",
+            "se": "Nobelpriset i fysiologi eller medicin"
+          },
+          "sortOrder": "3",
+          "portion": "1/3",
+          "dateAwarded": "1974-10-10",
+          "prizeStatus": "received",
+          "motivation": {
+            "en": "for their discoveries concerning the structural and functional organization of the cell",
+            "se": "för deras upptäckter rörande cellens strukturella och funktionella organisation"
+          },
+          "prizeAmount": 550000,
+          "prizeAmountAdjusted": 3322627,
+          "affiliations": [
+            {
+              "name": {
+                "en": "Yale University, School of Medicine",
+                "no": "Yale University, School of Medicine",
+                "se": "Yale University, School of Medicine"
+              },
+              "nameNow": {
+                "en": "Yale University, School of Medicine"
+              },
+              "city": {
+                "en": "New Haven, CT",
+                "no": "New Haven, CT",
+                "se": "New Haven, CT"
+              },
+              "country": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA"
+              },
+              "cityNow": {
+                "en": "New Haven, CT",
+                "no": "New Haven, CT",
+                "se": "New Haven, CT",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q49145",
+                  "https://www.wikipedia.org/wiki/New_Haven,_Connecticut"
+                ]
+              },
+              "countryNow": {
+                "en": "USA",
+                "no": "USA",
+                "se": "USA",
+                "sameAs": [
+                  "https://www.wikidata.org/wiki/Q30"
+                ]
+              },
+              "locationString": {
+                "en": "New Haven, CT, USA",
+                "no": "New Haven, CT, USA",
+                "se": "New Haven, CT, USA"
+              }
+            }
+          ],
+          "links": [
+            {
+              "rel": "nobelPrize",
+              "href": "https://api.nobelprize.org/2/nobelPrize/med/1974",
+              "action": "GET",
+              "types": "application/json"
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/medicine/1974/palade/facts/",
+              "title": "George E. Palade - Facts",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "laureate facts"
+              ]
+            },
+            {
+              "rel": "external",
+              "href": "https://www.nobelprize.org/prizes/medicine/1974/summary/",
+              "title": "The Nobel Prize in Physiology or Medicine 1974",
+              "action": "GET",
+              "types": "text/html",
+              "class": [
+                "prize summary"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "offset": 305,
+    "limit": 4,
+    "count": 981,
+    "terms": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/",
+    "license": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/#licence",
+    "disclaimer": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/#disclaimer"
+  },
+  "links": {
+    "first": "https://masterdataapi.nobelprize.org/2.1/laureates?offset=0&limit=4",
+    "prev": "https://masterdataapi.nobelprize.org/2.1/laureates?offset=301&limit=4",
+    "self": "https://masterdataapi.nobelprize.org/2.1/laureates?offset=305&limit=4",
+    "next": "https://masterdataapi.nobelprize.org/2.1/laureates?offset=309&limit=4",
+    "last": "https://masterdataapi.nobelprize.org/2.1/laureates?offset=980&limit=4"
+  }
+}

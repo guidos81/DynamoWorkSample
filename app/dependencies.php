@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 use App\Application\Settings\SettingsInterface;
 use DI\ContainerBuilder;
+use GuzzleHttp\Client;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Monolog\Processor\UidProcessor;
 use Psr\Container\ContainerInterface;
+use Psr\Http\Client\ClientInterface;
 use Psr\Log\LoggerInterface;
 
 return function (ContainerBuilder $containerBuilder) {
@@ -25,6 +27,10 @@ return function (ContainerBuilder $containerBuilder) {
             $logger->pushHandler($handler);
 
             return $logger;
+        },
+
+        ClientInterface::class => function (ContainerInterface $c) {
+            return new Client();
         },
     ]);
 };
