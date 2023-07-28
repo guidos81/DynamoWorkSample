@@ -1,52 +1,36 @@
 # Dynamo Work Sample
 
-Currently only fetches and orders 25 laureates, presenting the most recent 20 laureates.
+Currently only fetches and orders 50 laureates, presenting the most recent 20 laureates.
 It uses data from the Nobel Prize open API: https://www.nobelprize.org/about/developer-zone-2/
 
-The number of laureates can be changed from the LaureateService class, where the limit of the API can be extended to 1000 to collect all 981 current laureates.
+The number of laureates can be changed in the `LaureateService` class, where the limit of the API can be extended to 1000 to collect all 981 current laureates.
 
-## Potential Improvements
+## Install the app
 
-* Collect the laureates through pagination from the Noble Prize API
-* Cache the response from the Noble Prize API to reduce requests
-* Store results in a database and use this data to return results. A background job could refresh the database on a set schedule.
-* Exception handling around the Noble Prize API request
-
-
-# Slim Framework 4 Skeleton Application
-
-[![Coverage Status](https://coveralls.io/repos/github/slimphp/Slim-Skeleton/badge.svg?branch=master)](https://coveralls.io/github/slimphp/Slim-Skeleton?branch=master)
-
-Use this skeleton application to quickly setup and start working on a new Slim Framework 4 application. This application uses the latest Slim 4 with Slim PSR-7 implementation and PHP-DI container implementation. It also uses the Monolog logger.
-
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
-
-## Install the Application
-
-Run this command from the directory in which you want to install your new Slim Framework application. You will require PHP 7.4 or newer.
+In order to run the app you must first clone the app, checkout the `dynamo` branch and install the dependencies:
 
 ```bash
-composer create-project slim/slim-skeleton [my-app-name]
+git clone git@github.com:guidos81/DynamoWorkSample.git
+cd DynamoWorkSample
+git checkout dynamo
+composer install
 ```
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+## Usage
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writable.
-
-To run the application in development, you can run these commands 
+To run the application in development, you can run these commands
 
 ```bash
-cd [my-app-name]
 composer start
 ```
 
 Or you can use `docker-compose` to run the app with `docker`, so you can run these commands:
 ```bash
-cd [my-app-name]
 docker-compose up -d
 ```
-After that, open `http://localhost:8080` in your browser.
+After that, open `http://localhost:8080/laureates` in your browser.
+
+## Testing
 
 Run this command in the application directory to run the test suite
 
@@ -54,4 +38,13 @@ Run this command in the application directory to run the test suite
 composer test
 ```
 
-That's it! Now go build something cool.
+## Potential Improvements
+
+* Collect the laureates through pagination from the Noble Prize API
+* Cache the response from the Noble Prize API to reduce requests
+* Store results in a database and use this data to return results. A background job could refresh the database on a set schedule.
+* Exception handling around the Noble Prize API request
+* Further abstractions rather than concrete dependencies
+* Allow null data in `Laureate` class, currently using defaults for `awardedDate` and `nativeCountry`, add tests for this
+* Add test for multiple Noble Prizes. Logic added but untested.
+* Allow further parameters to determine number of returned Laureates, pagination?
