@@ -58,4 +58,5 @@ composer test
 * Further abstractions rather than concrete dependencies
 * Allow null data in `Laureate` class, currently using defaults for `awardedDate` and `nativeCountry`, add tests for this
 * Add test for multiple Noble Prizes. Logic added but untested.
-* Allow further parameters to determine number of returned Laureates, pagination?
+* Allow URL parameters to determine number of returned Laureates, pagination?
+* Improve Dockerfile
