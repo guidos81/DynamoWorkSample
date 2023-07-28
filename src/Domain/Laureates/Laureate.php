@@ -8,13 +8,25 @@ use JsonSerializable;
 
 class Laureate implements JsonSerializable
 {
+    private string $fullName;
+    private string $birthDate;
+    private string $nativeCountry;
+    private string $category;
+    private string $awardedDate;
+
     public function __construct(
-        private string $fullName,
-        private string $birthDate,
-        private string $nativeCountry,
-        private string $category,
-        private string $awardedDate,
-    ) {}
+        string $fullName,
+        string $birthDate,
+        string $nativeCountry,
+        string $category,
+        string $awardedDate
+    ) {
+        $this->fullName = $fullName;
+        $this->birthDate = $birthDate;
+        $this->nativeCountry = $nativeCountry;
+        $this->category = $category;
+        $this->awardedDate = $awardedDate;
+    }
 
     public function getFullName(): string
     {

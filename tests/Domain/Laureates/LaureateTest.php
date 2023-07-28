@@ -9,7 +9,6 @@ use Tests\TestCase;
 
 class LaureateTest extends TestCase
 {
-
     public function testGetters(): void
     {
         $laureate = new Laureate('Full Name', 'Birth Date', 'Native Country', 'Category', 'Awarded Date');
@@ -46,5 +45,4 @@ class LaureateTest extends TestCase
         $this->assertEquals('Chemistry', $laureate->getCategory());
         $this->assertEquals('1982-10-18', $laureate->getAwardedDate());
     }
-
 }

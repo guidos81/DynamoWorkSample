@@ -16,7 +16,6 @@ use Tests\TestCase;
 
 class LaureatesActionTest extends TestCase
 {
-
     public function testAction(): void
     {
         $app = $this->getAppInstance();
@@ -52,5 +51,4 @@ class LaureatesActionTest extends TestCase
             new Laureate('George de Hevesy', '1885-08-01', 'Austria-Hungary', 'Chemistry', '1944-11-09'),
         ];
     }
-
 }

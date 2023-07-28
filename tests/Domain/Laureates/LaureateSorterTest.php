@@ -10,7 +10,6 @@ use Tests\TestCase;
 
 class LaureateSorterTest extends TestCase
 {
-
     public function testSort(): void
     {
         $array = [
@@ -46,5 +45,4 @@ class LaureateSorterTest extends TestCase
         $sorter = new LaureatesSorter();
         $array = $sorter->sort($array);
     }
-
 }

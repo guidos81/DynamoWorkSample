@@ -8,10 +8,16 @@ use Psr\Http\Client\ClientInterface;
 
 class LaureatesService
 {
+    private ClientInterface $client;
+    private LaureatesSorter $sorter;
+
     public function __construct(
-        private ClientInterface $client,
-        private LaureatesSorter $sorter,
-    ) {}
+        ClientInterface $client,
+        LaureatesSorter $sorter
+    ) {
+        $this->client = $client;
+        $this->sorter = $sorter;
+    }
 
     public function getLaureates(): array
     {
