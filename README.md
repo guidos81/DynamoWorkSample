@@ -30,6 +30,17 @@ docker-compose up -d
 ```
 After that, open `http://localhost:8080/laureates` in your browser.
 
+## Docker Image
+
+I have included a `Dockerfile` which can be used to build a working image. From the project directory:
+
+```bash
+docker build -t dynamo .
+docker run -rm -p 8080:8080 dynamo
+```
+
+After that, open `http://localhost:8080/laureates` in your browser.
+
 ## Testing
 
 Run this command in the application directory to run the test suite
