@@ -6,6 +6,10 @@ namespace App\Domain\Laureates;
 
 class LaureatesSorter
 {
+    /**
+     * @param array $laureates
+     * @return array
+     */
     public function sort(array $laureates): array
     {
         usort($laureates, function (Laureate $a, Laureate $b) {

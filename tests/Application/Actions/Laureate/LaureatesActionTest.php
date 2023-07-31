@@ -8,10 +8,10 @@ use App\Application\Actions\ActionPayload;
 use App\Domain\Laureates\Laureate;
 use DI\Container;
 use GuzzleHttp\Client;
+use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use Psr\Http\Client\ClientInterface;
 use Tests\TestCase;
 
 class LaureatesActionTest extends TestCase

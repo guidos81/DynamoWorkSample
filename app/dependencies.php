@@ -5,11 +5,11 @@ declare(strict_types=1);
 use App\Application\Settings\SettingsInterface;
 use DI\ContainerBuilder;
 use GuzzleHttp\Client;
+use GuzzleHttp\ClientInterface;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 use Monolog\Processor\UidProcessor;
 use Psr\Container\ContainerInterface;
-use Psr\Http\Client\ClientInterface;
 use Psr\Log\LoggerInterface;
 
 return function (ContainerBuilder $containerBuilder) {

@@ -64,6 +64,10 @@ class Laureate implements JsonSerializable
         ];
     }
 
+    /**
+     * @param array $data
+     * @return self
+     */
     public static function fromJson(array $data): self
     {
         if (count($data['nobelPrizes']) > 1) {
